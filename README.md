@@ -16,7 +16,7 @@ A clean, minimal, and modern desktop application to transcribe audio and video f
 ## How to Install & Run (For Users)
 
 1. Go to the **Releases** section on the right side of this GitHub page.
-2. Download the latest **`app.exe`** file.
+2. Download the latest executable file (`app.exe`).
 3. Launch the app and select your audio or video file.
 
 > 💡 **Note:** On the very first run, the app will automatically download the Whisper AI model (~460 MB) from official servers. Internet connection is required for the **first transcription only**. All future sessions work 100% offline.
