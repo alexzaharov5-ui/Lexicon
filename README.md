@@ -48,5 +48,5 @@ If you want to run the source code directly:
 
 ```bash
 
-&#x20;  pip install customtkinter whisper torch tinytag
+pip install customtkinter whisper torch tinytag
 
