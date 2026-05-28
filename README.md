@@ -1,4 +1,4 @@
-# Audio & Video to Text Desktop Converter
+# Lexicon — Audio & Video to Text Desktop Converter
 
 A clean, minimal, and modern desktop application to transcribe audio and video files into text locally on your computer using OpenAI's Whisper model. 100% private, secure, and offline-ready.
 
