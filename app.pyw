@@ -12,7 +12,7 @@ ctk.set_default_color_theme("blue")
 class TranscriberApp(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Audio to Text (Whisper Max)")
+        self.title("Audio & Video to Text")
         self.geometry("620x600")
         self.resizable(False, False)
         
@@ -20,7 +20,7 @@ class TranscriberApp(ctk.CTk):
         self.file_path = ""
         self.total_duration = 0.0
         
-        self.label_title = ctk.CTkLabel(self, text="Audio to Text Converter", font=ctk.CTkFont(size=16, weight="bold"))
+        self.label_title = ctk.CTkLabel(self, text="Audio & Video to Text Converter", font=ctk.CTkFont(size=16, weight="bold"))
         self.label_title.pack(pady=15)
         
         self.btn_select = ctk.CTkButton(self, text="Select File", command=self.select_file, fg_color="#2b2b2b", hover_color="#3e3e3e", height=35)
